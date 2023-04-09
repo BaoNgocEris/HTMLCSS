@@ -1,0 +1,28 @@
+.row1{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.row1 img {
+    width: 50px;
+}
+.text {
+    position: absolute;
+    top: 0px;
+    color: #fff;
+}
+.relative {
+    position: relative;
+}
+.row4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.row3 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}

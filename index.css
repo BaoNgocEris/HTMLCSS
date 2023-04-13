@@ -5,12 +5,19 @@ body {
     margin-right: auto;
     margin-bottom: 20px;
 }
-.web img{
+.web .fvc img{
+    width: 60px;
+}
+.web .logo img{
     width: 50px;
 }
 .web {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.web li{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .web .fvc {
     list-style: none;
@@ -21,9 +28,11 @@ body {
 .logo {
     margin: 0;
     padding-left: 0;
+    list-style: none;
 }
 .fvc {
     margin: 0;
+    padding-right: 0px;
 }
 /* .web .fvc li{
     display: inline-block;
@@ -48,10 +57,10 @@ body {
 }
 .row4 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 65% 35%;
 }
 .ttin {
-    padding-left: 175px;
+    padding-left: 20px;
 }
 .anh { 
     display: grid;

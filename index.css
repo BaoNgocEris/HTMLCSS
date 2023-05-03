@@ -1,53 +1,26 @@
 body {
-    max-width: 1000px;
+    max-width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
-.web .fvc img{
+.container-fluid img {
     width: 60px;
 }
-.web .logo img{
-    width: 50px;
+.navbar-nav img {
+    width: 70px;
 }
-.web {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.web li{
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.web .fvc {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%; 
-    padding-top: 10px;    
-}
-.logo {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-}
-.fvc {
-    margin: 0;
-    padding-right: 0px;
-}
-/* .web .fvc li{
-    display: inline-block;
-    list-style: none;
-    margin: 0px 10px 0px 10px;
-}
-.web .fvc img{
-    margin-top: 10px;
-} */
 .text {
     position: absolute;
     top: 0px;
     color: aliceblue;
-    padding-left: 250px;
+    padding-left: 12px;
+    font-size: small;
     text-align: center;
+}
+.tieude {
+    font-size: 0.5cm;
 }
 .relative {
     position: relative;
@@ -55,28 +28,55 @@ body {
 .relative img {
     width: 100%;
 }
-.row4 {
-    display: grid;
-    grid-template-columns: 65% 35%;
+.content img {
+    width: 100%;
+    margin-bottom: 10px !important;
+    /* border-radius: 5px; */
 }
 .ttin {
-    padding-left: 20px;
+    font-size: x-large;
 }
-.anh { 
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+
+@media only screen and (min-width: 687px) {
+    /* For tablets: */
+    body {
+    background-color: lightblue;
+    }
+    .text {
+        padding-left: 100px;
+        font-size: 0.5cm !important;
+    }
+    .tieude {
+        font-size: 0.8cm;
+    }
+    .navbar-collapse {
+        margin-left: 280px;
+    }
 }
-.anh img {
-    margin: 5px 0px;
-    width: 95%;
-    border-radius: 10px;
-}
-.anh5 {
-    width: 345px;
-}
-.nd {
-    margin-top: -15px;
+
+@media only screen and (min-width: 987px) {
+    /* For desktop: */
+    body {
+    background-color: lightpink !important;
+    }
+    .text {
+        font-size: 2cm;
+        padding-left: 320px;
+    }
+    .ttin {
+        font-size: 0.8cm;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 68% 32%;
+    }
+    .image img {
+        margin: 0px 0px;
+    }
+    .image5 {
+        width: 365px;
+    }
+    .navbar-collapse {
+        margin-left: 700px;
+    }
 }

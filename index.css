@@ -1,0 +1,93 @@
+body {
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.text {
+    top: 0px;
+    color: black;
+    padding-left: 450px;
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+}
+.menu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container {
+    width: 100%;
+}
+.container2 {
+    width: 85%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.tieude {
+    padding-top: 560px;
+}
+.card {
+    width: 60%; 
+}
+.banner img{
+    width: 100%;
+    margin-top: 15px;
+}
+.row img{
+    width: 100%;
+}
+.price-old {
+    text-decoration: line-through;
+}
+.footer row{
+   margin-bottom: 100px;
+}
+.breadcrumd {
+    background-color: rgb(70, 64, 64);
+}
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+.link2{
+    text-decoration: none;
+    color: white;
+}
+.link3 {
+    text-decoration: none;
+    color: white;
+}
+.link4 {
+    text-decoration: none;
+    color: black;
+}
+.link5 {
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (min-width: 687px) {
+    /* For tablets: */
+    body {
+    background-color: white;
+    }
+    .banner {
+        width: 95%;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 987px) {
+    /* For desktop: */
+    body {
+    background-color: rgb(255, 255, 255) !important;
+    }
+    .banner {
+        margin-left: 30px;
+    }
+    .footer{
+        margin-bottom: 0px;
+    }
+    
+}

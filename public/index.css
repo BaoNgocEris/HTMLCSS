@@ -65,6 +65,11 @@ body {
     text-decoration: none;
     color: black;
 }
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
 @media only screen and (min-width: 687px) {
     /* For tablets: */
     body {

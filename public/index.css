@@ -8,7 +8,7 @@ body {
 .text {
     top: 0px;
     color: black;
-    padding-left: 450px;
+    /* padding-left: 450px; */
     font-size: small;
     text-align: center;
     padding-top: 10px;
@@ -28,9 +28,7 @@ body {
 .tieude {
     padding-top: 560px;
 }
-.card {
-    width: 60%; 
-}
+
 .banner img{
     width: 100%;
     margin-top: 15px;
@@ -75,6 +73,9 @@ body {
     .banner {
         width: 95%;
         margin-left: 20px;
+    }
+    .footer{
+        margin-bottom: 0px;
     }
 }
 
